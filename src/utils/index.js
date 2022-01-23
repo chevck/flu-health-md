@@ -1,3 +1,5 @@
+console.log("process", process.env);
+
 export const API_URL =
   process.env.NODE_ENV === "development"
     ? process.env.REACT_APP_DEV_URL
