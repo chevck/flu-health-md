@@ -12,6 +12,7 @@ export const RecordList = () => {
   }, []);
 
   const fetchDrugs = async () => {
+    console.log("fetching derugs", process.env);
     try {
       const { data } = await axios.get(`${API_URL}/product`);
       setdrugs(data);
