@@ -1,0 +1,37 @@
+.left_nav {
+  background: #e5e5e5;
+  width: 300px;
+  height: 100vh;
+  padding: 3rem 0;
+
+  a {
+    display: block;
+    padding: 3rem 0;
+    text-align: center;
+    text-decoration: none;
+
+    span {
+      background: #537a5a;
+      color: #fff;
+      padding: 0.8rem 1rem;
+      display: block;
+      width: 10rem;
+      margin: 0 auto;
+      border-radius: 7px;
+    }
+  }
+}
+
+.top_navigation {
+  height: 100px;
+  box-shadow: -4px 8px 22px -10px rgba(36, 34, 34, 0.52);
+  border-radius: 4px;
+}
+
+.page {
+  display: flex;
+}
+
+.main_content {
+  width: 100%;
+}

@@ -1,0 +1,28 @@
+.login_container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 5px 37px -5px rgba(36, 34, 34, 0.8);
+  padding: 2.5rem;
+  border-radius: 8px;
+
+  &_input-container {
+    width: 450px;
+
+    button {
+      margin-top: 0.5rem;
+      height: 3rem;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 4px;
+      background: #2c8f65;
+      color: white;
+      text-align: center;
+    }
+
+    .row {
+      margin-bottom: 2rem;
+    }
+  }
+}

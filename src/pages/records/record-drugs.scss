@@ -1,0 +1,178 @@
+.record_drugs_container {
+  //   position: absolute;
+  //   width: 300px;
+  //   display: flex;
+  padding: 90px;
+  //   justify-content: space-between;
+
+  &__input_drugs {
+    h2 {
+      margin-bottom: 15px;
+
+      a {
+        font-size: 14px;
+      }
+    }
+    &__scan_button {
+      width: 18rem;
+      padding: 8px;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-size: 18px;
+      background: #2c8f65;
+      margin-bottom: 1rem;
+
+      i {
+        margin-right: 1px;
+      }
+    }
+
+    .drugs_form {
+      .question-row {
+        margin-bottom: 1.7rem;
+
+        input,
+        select {
+          width: 80%;
+        }
+      }
+
+      .react-datepicker-popper {
+        z-index: 1000;
+      }
+
+      .react-datepicker {
+        font-family: "Inter", sans-serif;
+        color: #303030;
+        border: 1px solid #efefef;
+        box-shadow: 0px -4px 16px 0px rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        padding-bottom: 10px;
+        display: flex;
+      }
+
+      .react-datepicker__day-name,
+      .react-datepicker__day,
+      .react-datepicker__time-name {
+        color: #303030;
+        width: 1.9em;
+        margin: 0.2rem 0.7rem;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: -1.5px;
+      }
+
+      .react-datepicker__day-name {
+        font-weight: 400;
+        font-size: 13px;
+        color: #81868c;
+        letter-spacing: 0;
+      }
+
+      .react-datepicker__header {
+        background-color: #fff;
+        border: none;
+      }
+
+      .react-datepicker__current-month,
+      .react-datepicker-time__header,
+      .react-datepicker-year-header {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        color: #303030;
+        font-weight: 700;
+        letter-spacing: -0.5px;
+        font-size: 16px;
+      }
+
+      .react-datepicker__day--disabled,
+      .react-datepicker__month-text--disabled,
+      .react-datepicker__quarter-text--disabled,
+      .react-datepicker__year-text--disabled {
+        color: #81868c;
+        opacity: 0.5;
+      }
+
+      .react-datepicker__navigation-icon::before,
+      .react-datepicker__year-read-view--down-arrow,
+      .react-datepicker__month-read-view--down-arrow,
+      .react-datepicker__month-year-read-view--down-arrow {
+        border-color: #333;
+        top: 15px;
+      }
+
+      .react-datepicker__navigation {
+        top: 10px;
+        outline: 0 !important;
+      }
+
+      .react-datepicker__day--selected,
+      .react-datepicker__day--in-selecting-range,
+      .react-datepicker__day--in-range,
+      .react-datepicker__month-text--selected,
+      .react-datepicker__month-text--in-selecting-range,
+      .react-datepicker__month-text--in-range,
+      .react-datepicker__quarter-text--selected,
+      .react-datepicker__quarter-text--in-selecting-range,
+      .react-datepicker__quarter-text--in-range,
+      .react-datepicker__year-text--selected,
+      .react-datepicker__year-text--in-selecting-range,
+      .react-datepicker__year-text--in-range,
+      .react-datepicker__day--keyboard-selected,
+      .react-datepicker__month-text--keyboard-selected,
+      .react-datepicker__quarter-text--keyboard-selected,
+      .react-datepicker__year-text--keyboard-selected {
+        border-radius: 30px;
+        background: #0746a6;
+        color: #fff;
+      }
+
+      .react-datepicker-popper[data-placement^="bottom"]
+        .react-datepicker__triangle::before,
+      .react-datepicker-popper[data-placement^="bottom"]
+        .react-datepicker__triangle::after {
+        border-bottom-color: #fff;
+      }
+
+      .save_button {
+        border: none;
+        border-radius: 4px;
+        background: #537a5a;
+        color: #fff;
+        padding: 0.7rem;
+        width: 12rem;
+      }
+    }
+  }
+
+  &__scan-image {
+    img {
+      margin-top: 4rem;
+      padding: 2rem;
+    }
+  }
+}
+
+.records_list {
+  padding: 4rem;
+  margin-top: 4rem;
+
+  .add_record_drugs {
+    padding: 10px;
+    display: block;
+    border: 1px solid #2e2c2f;
+    color: #2e2c2f;
+    border-radius: 4px;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    width: 10rem;
+    text-align: center;
+  }
+
+  .delete-option {
+    text-decoration: underline;
+    color: #ff7171 !important;
+    cursor: pointer;
+  }
+}

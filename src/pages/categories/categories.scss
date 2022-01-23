@@ -1,0 +1,23 @@
+.drug_categories_container {
+  .drug_categories_list {
+    margin-top: 8rem;
+    width: 90%;
+
+    .create_category_btn {
+      float: right;
+      border: none;
+      padding: 11px;
+      width: 13rem;
+      color: white;
+      background: #527a5a;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+
+    .delete-option {
+      text-decoration: underline;
+      color: #ff7171;
+      cursor: pointer;
+    }
+  }
+}
